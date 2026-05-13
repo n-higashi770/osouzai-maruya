@@ -16,6 +16,28 @@ setInterval(() => {
   showSlide(index);
 }, 4000);
 
+
+/* フェードイン */
+
+document.addEventListener("DOMContentLoaded", () => {
+    const targets = document.querySelectorAll(".fadein");
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+                observer.unobserve(entry.target); // 一度だけ発火
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    targets.forEach(target => observer.observe(target));
+});
+
+
+
 /* ハンバーガー */
 const hamburger = document.querySelector('.hamburger');
 const nav = document.querySelector('.global-nav');

@@ -94,6 +94,9 @@
     object-fit: cover;
   }
 
+   .aboutus-block:first-child {
+    margin-bottom: var(--space-xl) !important;
+  }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {
     order: 1 !important;

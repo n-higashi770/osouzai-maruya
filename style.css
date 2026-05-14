@@ -429,7 +429,7 @@ p {
   display: grid;
   grid-template-columns: 35% 65%;
   align-items: center;
-  margin-block: var(--space-3xl);
+  margin-block: var(--space-4xl);
 }
 
 .aboutus-block:nth-child(2){

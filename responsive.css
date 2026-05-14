@@ -35,7 +35,7 @@
 
 
 @media (max-width: 768px) {
-  .pc-horizontal-nav {
+  .pc-vertical-nav {
     display: none;
   }
 
@@ -289,4 +289,9 @@
   .footer-left {
     display: none;
   }
+
+  #site-footer{
+  display: none;
 }
+}
+

@@ -63,23 +63,16 @@ window.addEventListener("scroll", () => {
   const sections = document.querySelectorAll("section[id]");
   const navItems = document.querySelectorAll(".pc-vertical-nav li");
 
-  /* hero外で色変更 */
+  // hero外判定
   if (window.scrollY > hero.offsetHeight) {
     nav.classList.add("scrolled");
   } else {
     nav.classList.remove("scrolled");
   }
 
-  /* 初期化 */
-  navItems.forEach(li => {
-    li.classList.remove("active");
-    li.style.setProperty("--progress", 0);
-  });
+  const viewportPoint = window.scrollY + window.innerHeight / 2;
 
-  const viewportPoint = window.scrollY + window.innerHeight * 0.35;
-  const pageBottom =
-    window.innerHeight + window.scrollY >=
-    document.documentElement.scrollHeight - 2;
+  let activeLi = null;
 
   sections.forEach((section, index) => {
     const top = section.offsetTop;
@@ -87,7 +80,6 @@ window.addEventListener("scroll", () => {
     const bottom = top + height;
     const isLast = index === sections.length - 1;
 
-    /* 今見てるsection */
     if (viewportPoint >= top && viewportPoint < bottom) {
       const link = document.querySelector(
         `.pc-vertical-nav a[href="#${section.id}"]`
@@ -96,38 +88,22 @@ window.addEventListener("scroll", () => {
       if (!link) return;
 
       const li = link.closest("li");
+      activeLi = li;
+
       li.classList.add("active");
 
-      let progress;
-
-      /* 最後のsectionだけ補正 */
-      if (isLast) {
-        const range =
-          document.documentElement.scrollHeight -
-          window.innerHeight -
-          top;
-
-        progress = (window.scrollY - top) / range;
-      } else {
-        progress = (viewportPoint - top) / height;
-      }
-
+      let progress = (viewportPoint - top) / height;
       progress = Math.max(0, Math.min(1, progress));
 
       li.style.setProperty("--progress", progress);
     }
+  });
 
-    /* 最下部まで来たら最後の線100% */
-    if (isLast && pageBottom) {
-      const link = document.querySelector(
-        `.pc-vertical-nav a[href="#${section.id}"]`
-      );
-
-      if (!link) return;
-
-      const li = link.closest("li");
-      li.classList.add("active");
-      li.style.setProperty("--progress", 1);
+  // active以外は消す（1回だけ）
+  navItems.forEach(li => {
+    if (li !== activeLi) {
+      li.classList.remove("active");
+      li.style.setProperty("--progress", 0);
     }
   });
 });

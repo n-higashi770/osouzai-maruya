@@ -13,7 +13,7 @@
 }
 
   .section {
-    padding: var(--space-2xl) var(--space-lg) !important;
+    padding: var(--space-xl) var(--space-lg) !important;
   }
 
   .h3 {
@@ -196,7 +196,7 @@
   .menu-sns {
     width: 100%;
     align-items: center;
-    margin: 0 auto;
+    margin: var(--space-sm) auto 0;
   }
 
   .menu-sns img {

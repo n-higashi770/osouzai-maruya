@@ -84,7 +84,7 @@ h3 {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.25rem;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 h4 {
@@ -116,6 +116,8 @@ p {
 ========================= */
 #hero {
   height: 100vh;
+  position: relative;
+  background: #F7F3EA;
 }
 
 .hero-slides {
@@ -123,6 +125,8 @@ p {
   inset: 0;
   z-index: 0;
   pointer-events:none;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .slide-wrap {
@@ -166,7 +170,7 @@ p {
 }
 
 /* =========================
-  ロゴ（左上）
+  ロゴ
 ========================= */
 .site-title {
   position: absolute;
@@ -189,7 +193,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20;
+  z-index: 1;
 }
 
 .hero-text p {
@@ -210,7 +214,7 @@ p {
   top: 50%;
   left: 3%;
   transform: translateY(-50%);
-  z-index: 100001;
+  z-index: 100;
 }
 
 .pc-vertical-nav ul{
@@ -260,7 +264,7 @@ p {
 
   transform: scaleY(var(--progress));
   transform-origin: top;
-  transition: transform .08s linear;
+  transition: none;
 }
 
 /* アイコンだけ横向き維持 */
@@ -300,7 +304,7 @@ p {
   border: none;
   background: transparent;
   cursor: pointer;
-  z-index: 100001;
+  z-index: 300;
 
   background: rgba(70,70,70,0.24);
   border-radius: 50%;
@@ -341,7 +345,7 @@ p {
 
   background: rgba(10,26,47,0.97);
   padding: var(--space-md);
-  z-index: 100000;
+  z-index: 200;
 
   display: flex;
   flex-direction: column;
@@ -526,7 +530,7 @@ p {
 }
 
 .news-item-date {
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-xs);
 }
 
 .news-item-body {
@@ -541,7 +545,6 @@ p {
 .menu-sns {
   max-width: 960px;
   margin-inline: auto;
-  margin-bottom: var(--space-xl);
   text-align: left;
 }
 
@@ -554,7 +557,11 @@ p {
 .menu-text p {
   line-height: 2.5;
   letter-spacing: .05em;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.menu-sns {
+  margin-top: var(--space-sm);
 }
 
 
@@ -649,6 +656,7 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-bottom: 0;
 }
 
 .info-wrapper {
@@ -700,12 +708,12 @@ p {
 }
 
 .copyright{
-  max-width: 1250px;
-  width: 100%;
-  margin: var(--space-3xl) auto 0;
-  text-align: center;
-  opacity: .55;
-}
+ max-width: 1250px;
+ width: 100%;
+ margin: var(--space-3xl) auto var(--space-lg);
+ text-align: center;
+ opacity: .55;
+ }
 
 
 /* =====================

@@ -547,7 +547,7 @@ p {
 }
 
 .menu-text h3 {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .menu-text p {

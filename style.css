@@ -84,7 +84,7 @@ h3 {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.25rem;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }
 
 h4 {
@@ -559,10 +559,9 @@ p {
   margin-bottom: var(--space-lg);
 }
 
-.menu-sns {
-  margin-top: var(--space-sm);
+.menu-text small {
+  margin-bottom: var(--space-lg);
 }
-
 
 /* スライダー */
 

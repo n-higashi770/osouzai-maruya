@@ -84,7 +84,7 @@ h3 {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.25rem;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-2xl);
 }
 
 h4 {
@@ -467,7 +467,6 @@ p {
   text-orientation: upright;
 
   height: auto;
-  margin-bottom: var(--space-2xl);
 }
 
 .aboutus-text-vertical p{
@@ -557,7 +556,7 @@ p {
 .menu-text p {
   line-height: 2.5;
   letter-spacing: .05em;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-2xl);
 }
 
 .menu-sns {

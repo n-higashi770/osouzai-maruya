@@ -547,11 +547,9 @@ p {
   text-align: left;
 }
 
-.menu-sns img {
-  width: 280px;
-  display: block;
+.menu-text h3 {
+  margin-bottom: var(--space-xl);
 }
-
 
 .menu-text p {
   line-height: 2.5;
@@ -562,6 +560,12 @@ p {
 .menu-text small {
   margin-bottom: var(--space-lg);
 }
+
+.menu-sns img {
+  width: 280px;
+  display: block;
+}
+
 
 /* スライダー */
 

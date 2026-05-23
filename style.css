@@ -549,22 +549,7 @@ p {
 .menu-text {
   display: flex;
   flex-direction: column;
-}
-
-
-.menu-text h3 {
-  margin-bottom: var(--space-lg);
-}
-
-.menu-text p {
-  line-height: 2.5;
-  letter-spacing: .05em;
-  margin-bottom: var(--space-lg);
-}
-
-.menu-text small {
-  display: block;
-  margin-bottom: var(--space-lg);
+  gap: var(--space-lg);
 }
 
 .menu-sns img {

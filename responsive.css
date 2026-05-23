@@ -121,7 +121,6 @@
 
   .aboutus-text-vertical h3{
   writing-mode: horizontal-tb;
-  margin-bottom: var(--space-md);
   }
 
   .aboutus-text-vertical h2,

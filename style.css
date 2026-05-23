@@ -83,7 +83,7 @@ h3 {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.25rem;
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }
 
 h4 {
@@ -551,6 +551,10 @@ p {
   max-width: 960px;
   margin-inline: auto;
   text-align: left;
+}
+
+.menu-titke {
+  margin-bottom: var(--space-xl);
 }
 
 .menu-text {

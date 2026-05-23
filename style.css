@@ -553,7 +553,7 @@ p {
   text-align: left;
 }
 
-.menu-titke {
+.menu-title h3 {
   margin-bottom: var(--space-xl);
 }
 

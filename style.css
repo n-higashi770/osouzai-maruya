@@ -546,6 +546,12 @@ p {
   text-align: left;
 }
 
+.menu-text {
+  display: flex;
+  flex-direction: column;
+}
+
+
 .menu-text h3 {
   margin-bottom: var(--space-lg);
 }

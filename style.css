@@ -565,7 +565,7 @@ p {
 .menu-text p {
   line-height: 2.5;
   letter-spacing: .05em;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .menu-text small {

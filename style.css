@@ -82,7 +82,6 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 0.25;
   letter-spacing: 0.5rem;
   margin-bottom: var(--space-2xl);
 }
@@ -196,13 +195,16 @@ p {
   z-index: 1;
 }
 
-.hero-text p {
-  font-size: 2rem;
-  line-height: 0.25;
+.hero-text {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  flex-direction: column;
   letter-spacing: 0.5rem;
+  gap: 1rem;
+  font-size: 2rem;
   color: #fff;
   font-weight: 400;
-  writing-mode: vertical-rl;
 }
 
 /* =========================
@@ -462,8 +464,12 @@ p {
   
 }
 
-.aboutus-text-vertical h3{
+.aboutus-text-vertical h3 {
   writing-mode: vertical-rl;
+  text-orientation: upright;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .aboutus-text-vertical p{

@@ -572,13 +572,12 @@ p {
 }
 
 .menu-text small {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-xl);
 }
 
 .menu-sns img {
   width: 280px;
   display: block;
-  margin-bottom: var(--space-lg);
 }
 
 

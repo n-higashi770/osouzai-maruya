@@ -143,13 +143,18 @@
 
 
 /* =========================================================
-     ニュース&店舗情報　縦積み
+     ニュース
   ========================================================= */
 @media (max-width: 768px) {
 
   #news {
     display: block;
     width: 100%;
+  }
+
+  .news-inner, {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .news-wrapper {
@@ -180,8 +185,6 @@
 
 @media (max-width: 768px){
 
-  #news,
-  .news-inner,
   .menu-block {
     flex-direction: column;
     align-items: flex-start;

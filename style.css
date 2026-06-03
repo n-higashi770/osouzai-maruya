@@ -192,7 +192,7 @@ p {
   position: absolute;
   top: 25%;    
   left: 50%;
-  transform: translate(-50%, -25%);
+  transform: translate(-50%, -15%);
   z-index: 21;  
 }
 
@@ -572,7 +572,7 @@ p {
 }
 
 .menu-text small {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-2xl);
 }
 
 .menu-sns img {

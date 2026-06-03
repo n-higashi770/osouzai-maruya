@@ -464,9 +464,6 @@ p {
 
 .aboutus-text-vertical h3{
   writing-mode: vertical-rl;
-  text-orientation: upright;
-
-  height: auto;
 }
 
 .aboutus-text-vertical p{

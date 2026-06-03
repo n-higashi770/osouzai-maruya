@@ -76,7 +76,7 @@ h2 {
   font-size: 1rem;
   font-weight: 400;
   color: #666;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-md);
 }
 
 h3 {

@@ -200,7 +200,6 @@ p {
   color: #fff;
   font-weight: 400;
   writing-mode: vertical-rl;
-  inline-size: 1em;
 }
 
 /* =========================
@@ -465,7 +464,6 @@ p {
   text-orientation: upright;
   line-height: 2;
   height: auto;
-  inline-size: 1em;
 }
 
 .aboutus-text-vertical p{

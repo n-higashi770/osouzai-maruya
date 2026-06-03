@@ -1,5 +1,4 @@
-
-/* =====================
+これなんでheroのpはletter-heightきいてるのにaboutusのh2はきいてないの？？/* =====================
 リセット
 ===================== */
 * {
@@ -76,12 +75,13 @@ h2 {
   font-size: 1rem;
   font-weight: 400;
   color: #666;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-xs);
 }
 
 h3 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 0.25;
   letter-spacing: 0.5rem;
   margin-bottom: var(--space-2xl);
 }
@@ -195,16 +195,13 @@ p {
   z-index: 1;
 }
 
-.hero-text {
-  writing-mode: vertical-rl;
-  text-orientation: upright;
-  display: flex;
-  flex-direction: column;
-  letter-spacing: 0.5rem;
-  gap: 1rem;
+.hero-text p {
   font-size: 2rem;
+  line-height: 0.25;
+  letter-spacing: 0.5rem;
   color: #fff;
   font-weight: 400;
+  writing-mode: vertical-rl;
 }
 
 /* =========================
@@ -464,12 +461,11 @@ p {
   
 }
 
-.aboutus-text-vertical h3 {
+.aboutus-text-vertical h3{
   writing-mode: vertical-rl;
   text-orientation: upright;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+
+  height: auto;
 }
 
 .aboutus-text-vertical p{
@@ -491,7 +487,6 @@ p {
 
   border-radius: 8px;
 }
-
 
 
 /* =====================

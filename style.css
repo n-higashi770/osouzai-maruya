@@ -535,25 +535,33 @@ p {
 /* =====================
 メニュー
 ===================== */
-.menu-block,
-.menu-sns {
+
+.menu-wrapper {
   max-width: 960px;
   margin-inline: auto;
   text-align: left;
 }
 
-.menu-block,
-.menu-sns {
-  max-width: 960px;
-  margin-inline: auto;
-  text-align: left;
+.menu-block {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-xl);
+  border-bottom: 1px solid #ccc;
+  padding-bottom: var(--space-xl);
+}
+
+/* 左カラム */
+.menu-title {
+  width: 320px;
 }
 
 .menu-title h3 {
   margin-bottom: var(--space-lg);
 }
 
+/* 右カラム */
 .menu-text {
+  flex: 1;
   display: flex;
   flex-direction: column;
 }
@@ -567,6 +575,11 @@ p {
 .menu-text small {
   display: block;
   margin-bottom: var(--space-lg);
+}
+
+/* SNS ブロック */
+.menu-sns {
+  margin-top: var(--space-xl);
 }
 
 .menu-sns img {

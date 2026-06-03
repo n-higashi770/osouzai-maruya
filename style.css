@@ -535,7 +535,6 @@ p {
 /* =====================
 メニュー
 ===================== */
-
 .menu-wrapper {
   max-width: 960px;
   margin-inline: auto;
@@ -550,16 +549,17 @@ p {
   padding-bottom: var(--space-xl);
 }
 
-/* 左カラム */
 .menu-title {
   width: 320px;
+  display: flex;
+  flex-direction: column;
 }
 
+.menu-title h2,
 .menu-title h3 {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
-/* 右カラム */
 .menu-text {
   flex: 1;
   display: flex;
@@ -573,18 +573,13 @@ p {
 }
 
 .menu-text small {
-  display: block;
   margin-bottom: var(--space-lg);
 }
 
-/* SNS ブロック */
-.menu-sns {
-  margin-top: var(--space-xl);
-}
-
-.menu-sns img {
-  width: 280px;
+.menu-text img {
+  width: 100%;
   display: block;
+  margin-bottom: var(--space-lg);
 }
 
 

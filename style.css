@@ -113,16 +113,15 @@ p {
 #hero {
   height: 100vh;
   position: relative;
-  background: #F7F3EA;
+  overflow: hidden; /* ← 背景クリック防止 */
 }
 
+/* 背景スライド（クリック不可） */
 .hero-slides {
   position: fixed;
   inset: 0;
   z-index: 0;
-  pointer-events: none;
-  will-change: transform;
-  transform: translateZ(0);
+  pointer-events: none; /* ← 背景クリックできなくなる */
 }
 
 .slide-wrap {
@@ -166,24 +165,7 @@ p {
 }
 
 /* =========================
-  ロゴ（キャッチの上に絶対配置）
-========================= */
-.site-title {
-  position: absolute;
-  top: 50%;          /* 画面中央を基準に */
-  left: 50%;
-  transform: translate(-50%, -160%); 
-  /* ↑ ここでロゴをキャッチの上に移動（距離調整はここだけ） */
-  z-index: 20;
-}
-
-.header-logo img {
-  width: 110px;
-  height: auto;
-}
-
-/* =========================
-  キャッチ（画面中央に絶対配置）
+  キャッチ（画面中央）
 ========================= */
 .hero-text {
   position: absolute;
@@ -191,16 +173,32 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 20;
+  z-index: 20; 
 }
 
 .hero-text p {
   font-size: 1.7rem;
+  font-weight: 300;
   line-height: 2;
   letter-spacing: 0.3rem;
-  color: #fff;
-  font-weight: 300;
   writing-mode: vertical-rl;
+  color: #fff;
+}
+
+/* =========================
+  ロゴ（キャッチの上に絶対配置）
+========================= */
+.site-title {
+  position: absolute;
+  top: 50%;    
+  left: 50%;
+  transform: translate(-50%, -160%); 
+  z-index: 21;  
+}
+
+.header-logo img {
+  width: 110px;
+  height: auto;
 }
 
 /* =========================
@@ -250,7 +248,7 @@ p {
   color: #c9a86a;
 }
 
-/* 右ライン（スクロール量で伸びる） */
+/* 右ライン */
 .pc-vertical-nav li::after{
   content: "";
   position: absolute;

@@ -544,7 +544,6 @@ p {
   display: flex;
   align-items: flex-start;
   gap: var(--space-xl);
-  border-bottom: 1px solid #ccc;
   padding-bottom: var(--space-xl);
 }
 

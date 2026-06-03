@@ -190,9 +190,8 @@ p {
 ========================= */
 .site-title {
   position: absolute;
-  top: 50%;    
+  top: 25%;    
   left: 50%;
-  transform: translate(-50%, -25%); 
   z-index: 21;  
 }
 
@@ -576,8 +575,8 @@ p {
   margin-bottom: var(--space-lg);
 }
 
-.menu-text img {
-  width: 100%;
+.menu-sns img {
+  width: 280px;
   display: block;
   margin-bottom: var(--space-lg);
 }

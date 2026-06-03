@@ -94,6 +94,11 @@ p {
   font-weight: 400;
 }
 
+.hero-text p,
+.aboutus-text-vertical h3 {
+  text-wrap: normal;
+}
+
 .fadein {
     opacity: 0;
     transform: translateY(20px);

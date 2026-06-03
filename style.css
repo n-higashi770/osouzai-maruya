@@ -80,7 +80,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   margin-bottom: var(--space-2xl);
 }
 
@@ -205,7 +205,7 @@ p {
 .hero-text p {
   font-size: 1.75rem;
   line-height: 2;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   color: #fff;
   font-weight: 300;
   writing-mode: vertical-rl;

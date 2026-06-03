@@ -120,7 +120,7 @@ p {
   position: fixed;
   inset: 0;
   z-index: 0;
-  pointer-events:none;
+  pointer-events: none;
   will-change: transform;
   transform: translateZ(0);
 }
@@ -166,51 +166,42 @@ p {
 }
 
 /* =========================
-  ロゴ＋キャッチ縦積み
+  ロゴ（キャッチの上に絶対配置）
 ========================= */
-
-.hero-center-stack {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  z-index: 20;
-  pointer-events: none; 
-}
-
-#hero .site-title,
-#hero .hero-text {
-  position: static !important;
-  inset: auto !important;
-}
-
-/* ロゴ */
 .site-title {
-  margin-bottom: 24px; 
+  position: absolute;
+  top: 50%;          /* 画面中央を基準に */
+  left: 50%;
+  transform: translate(-50%, -160%); 
+  /* ↑ ここでロゴをキャッチの上に移動（距離調整はここだけ） */
+  z-index: 20;
 }
 
 .header-logo img {
-  width: 100px;
+  width: 110px;
   height: auto;
 }
 
+/* =========================
+  キャッチ（画面中央に絶対配置）
+========================= */
 .hero-text {
+  position: absolute;
+  inset: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 20;
 }
 
 .hero-text p {
-  font-size: 1.75rem;
+  font-size: 1.7rem;
   line-height: 2;
   letter-spacing: 0.3rem;
   color: #fff;
   font-weight: 300;
   writing-mode: vertical-rl;
 }
-
 
 /* =========================
 縦書きナビ

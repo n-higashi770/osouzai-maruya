@@ -186,13 +186,13 @@ p {
 }
 
 /* =========================
-  ロゴ（キャッチの上に絶対配置）
+  ロゴ
 ========================= */
 .site-title {
   position: absolute;
   top: 25%;    
   left: 50%;
-  transform: translate(-50%, -15%);
+  transform: translate(-50%, -5%);
   z-index: 21;  
 }
 
@@ -572,7 +572,7 @@ p {
 }
 
 .menu-text small {
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--space-xl);
 }
 
 .menu-sns img {

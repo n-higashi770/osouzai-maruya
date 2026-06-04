@@ -664,7 +664,7 @@ p {
   position: static;                
   justify-content: center;
   width: 100%;
-  margin-block: var(--space-xl);
+  margin-block: var(--space-2xl);
 }
 
 

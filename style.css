@@ -194,11 +194,12 @@ p {
 ========================= */
 .site-title {
   position: absolute;
-  top: 50%;    
+  top: 10%; 
   left: 50%;
-  transform: translate(-50%, -230%); 
+  transform: translateX(-50%);
   z-index: 21;
 }
+
 
 .header-logo img {
   width: 110px;

@@ -169,11 +169,10 @@ p {
 ========================= */
 .hero-text {
   position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 20; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
 }
 
 .hero-text p {
@@ -185,21 +184,23 @@ p {
   color: #fff;
 }
 
+
 /* =========================
   ロゴ
 ========================= */
 .site-title {
   position: absolute;
-  top: 25%;    
+  top: 50%;    
   left: 50%;
-  transform: translate(-50%, -5%);
-  z-index: 21;  
+  transform: translate(-50%, -150%); 
+  z-index: 21;
 }
 
 .header-logo img {
   width: 110px;
   height: auto;
 }
+
 
 /* =========================
 縦書きナビ

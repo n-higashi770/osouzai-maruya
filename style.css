@@ -180,7 +180,7 @@ p {
 
 
 .hero-text p {
-  font-size: 1.7rem;
+  font-size: 1.75rem;
   font-weight: 300;
   line-height: 2;
   letter-spacing: 0.3rem;
@@ -707,8 +707,8 @@ p {
   left: 5%;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 2.4rem;
-  font-weight: 400;
+  font-size: 1.75rem;
+  font-weight: 300;
   line-height: 1.6;
   letter-spacing: 0.05em;
   text-shadow: 0 2px 6px rgba(0,0,0,0.35);

@@ -683,7 +683,7 @@ p {
 .band-photo {
   position: relative;
   width: 100%;
-  height: 45vh; /* PCでの帯の高さ */
+  height: 60vh; 
   overflow: hidden;
   margin: 0;
 }
@@ -695,11 +695,13 @@ p {
   object-fit: cover;
   object-position: center;
   display: block;
-  filter: brightness(0.75); /* 文字を読みやすくするため少し暗く */
+  filter: brightness(0.75); 
 }
 
-/* キャッチコピー（左寄せ） */
+/* キャッチコピー */
 .band-caption {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
   position: absolute;
   top: 50%;
   left: 5%;

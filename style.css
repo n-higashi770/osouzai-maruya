@@ -194,7 +194,7 @@ p {
 ========================= */
 .site-title {
   position: absolute;
-  top: 10%; 
+  top: 5%; 
   left: 50%;
   transform: translateX(-50%);
   z-index: 21;
@@ -704,10 +704,10 @@ p {
   text-orientation: upright;
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 15%;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 1.75rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 2;
   letter-spacing: 0.3em;

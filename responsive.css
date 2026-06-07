@@ -43,8 +43,8 @@
     position: absolute;
     top: 10%;
     left: 50%;
-    right: auto;
-    margin-left: -60px; 
+    transform: translateX(-50%); 
+    margin-left: 0 !important;  
   }
 
   .header-logo img {
@@ -225,6 +225,16 @@
 
   .menu-text small {
     margin-bottom: var(--space-lg) !important;
+  }
+}
+
+    /* =========================================================
+     帯
+  ========================================================= */
+
+  @media (max-width: 768px) {
+  .band-photo-section {
+    padding-inline: 0 !important;
   }
 }
 

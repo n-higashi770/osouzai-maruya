@@ -676,7 +676,7 @@ p {
   position: relative;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding-left: var(--space-4xl);
 }
 
 /* 写真ブロック */
@@ -721,18 +721,6 @@ p {
   content: "";
 }
 
-/* スマホ調整 */
-@media screen and (max-width: 768px) {
-  .band-photo {
-    height: 32vh;
-  }
-
-  .band-caption {
-    font-size: 1.6rem;
-    left: 4%;
-    line-height: 1.5;
-  }
-}
 
 
 /* =====================

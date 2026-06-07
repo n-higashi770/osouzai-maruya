@@ -704,15 +704,21 @@ p {
   text-orientation: upright;
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 20%;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 2;
   letter-spacing: 0.3em;
   text-shadow: 0 2px 6px rgba(0,0,0,0.35);
   pointer-events: none;
+}
+
+.vertical-caption br {
+  margin-block: 1em; 
+  display: block;   
+  content: "";
 }
 
 /* スマホ調整 */

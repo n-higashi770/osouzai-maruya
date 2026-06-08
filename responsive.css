@@ -219,6 +219,10 @@
     margin-bottom: var(--space-md);
   }
 
+  .menu-text p {
+    margin-top: 0 !important;
+  }
+
   .menu-text small {
     margin-bottom: var(--space-lg) !important;
   }

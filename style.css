@@ -560,11 +560,6 @@ p {
   flex-direction: column;
 }
 
-.menu-title h2,
-.menu-title h3 {
-  margin-bottom: var(--space-md);
-}
-
 .menu-text {
   flex: 1;
   display: flex;

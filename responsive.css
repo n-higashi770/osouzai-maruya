@@ -219,10 +219,6 @@
     margin-bottom: var(--space-md);
   }
 
-  .menu-title h3 {
-    margin-bottom: var(--space-lg) !important;
-  }
-
   .menu-text small {
     margin-bottom: var(--space-lg) !important;
   }

@@ -282,33 +282,3 @@
   }
 }
 
-
-
-  /* =========================================================
-     フッター
-  ========================================================= */
-
-  #site-footer {
-    grid-template-columns: 1fr;
-    gap: var(--space-md);
-    padding: var(--space-md);
-    text-align: left;
-    min-height: auto;
-  }
-
-  .footer-logo {
-    justify-self: center;
-  }
-
-  .footer-right,
-  .footer-nav,
-  .footer-sns,
-  .footer-left {
-    display: none;
-  }
-
-  #site-footer{
-  display: none;
-}
-}
-

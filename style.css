@@ -794,11 +794,12 @@ p {
 /* =====================
 フッター
 ===================== */
-.footer {
+footer {
   max-width: 1250px;
   width: 100%;
   margin: var(--space-xl); 
   text-align: center;
   opacity: .55;
+  background: #F7F3EA;
 }
 

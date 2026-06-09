@@ -299,10 +299,10 @@ p {
 /* ボタン */
 .hamburger{
   position: fixed;
-  top: 30px;
-  right: 30px;
-  width: 62px;
-  height: 62px;
+  top: 5%;
+  right: 5%;
+  width: 40px;
+  height: 40px;
   border: none;
   background: transparent;
   cursor: pointer;

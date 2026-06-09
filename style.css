@@ -174,7 +174,7 @@ small {
 }
 
 body.scrolled-past-hero .hero-slides {
-  opacity: 0;
+  opacity: 0 !important;
   transition: opacity .6s ease;
 }
 

@@ -17,7 +17,11 @@
   }
 
   h3 {
-    margin-bottom: var(--space-xl)!important;
+    margin-bottom: var(--space-lg)!important;
+  }
+
+  p {
+    font-size: 0.75rem;
   }
 
   br{
@@ -95,7 +99,7 @@
   }
 
    .aboutus-block:first-child {
-    margin-bottom: var(--space-2xl) !important;
+    margin-bottom: var(--space-xl) !important;
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {
@@ -118,7 +122,7 @@
     justify-items: initial !important;
     align-content: initial !important;
 
-   margin-bottom: var(--space-xl);
+   margin-bottom: var(--space-lg);
   }
 
   .aboutus-text-vertical h3{

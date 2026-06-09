@@ -168,6 +168,13 @@ small {
   );
 }
 
+body.hide-hero-bg .hero-slides {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s ease;
+}
+
+
 /* =========================
   キャッチ（画面中央）
 ========================= */

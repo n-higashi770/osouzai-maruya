@@ -800,5 +800,6 @@ footer {
   padding: var(--space-xl); 
   text-align: center;
   background: #F7F3EA;
+  z-index: 2;
 }
 

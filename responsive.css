@@ -21,6 +21,10 @@
   }
 
   p {
+    font-size: 0.8rem;
+  }
+
+  small {
     font-size: 0.75rem;
   }
 
@@ -99,7 +103,7 @@
   }
 
    .aboutus-block:first-child {
-    margin-bottom: var(--space-xl) !important;
+    margin-bottom: var(--space-lg) !important;
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {

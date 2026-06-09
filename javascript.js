@@ -16,6 +16,20 @@ setInterval(() => {
   showSlide(index);
 }, 4000);
 
+/* スクロールで消える */
+const hero = document.getElementById('hero');
+
+window.addEventListener('scroll', () => {
+  const heroBottom = hero.offsetHeight;
+
+  if (window.scrollY > heroBottom) {
+    document.body.classList.add('hide-hero-bg');
+  } else {
+    document.body.classList.remove('hide-hero-bg');
+  }
+});
+
+
 
 /* フェードイン */
 

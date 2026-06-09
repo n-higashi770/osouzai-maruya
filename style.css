@@ -799,7 +799,6 @@ footer {
   margin: 0;
   padding: var(--space-xl); 
   text-align: center;
-  opacity: .55;
   background: #F7F3EA;
 }
 

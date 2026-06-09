@@ -159,7 +159,7 @@ small {
 .slide1.active .slide,
 .slide2.active .slide,
 .slide3.active .slide {
-  transform: translate(-50%, -50%) scale(1.1);
+  transform: translate(-50%, -50%) scale(1.03);
 }
 
 .slide-wrap::after {

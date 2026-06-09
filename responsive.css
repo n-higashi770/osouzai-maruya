@@ -95,7 +95,7 @@
   }
 
    .aboutus-block:first-child {
-    margin-bottom: var(--space-xl) !important;
+    margin-bottom: var(--space-2xl) !important;
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {
@@ -117,6 +117,8 @@
 
     justify-items: initial !important;
     align-content: initial !important;
+
+   margin-bottom: var(--space-xl);
   }
 
   .aboutus-text-vertical h3{

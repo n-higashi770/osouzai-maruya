@@ -13,11 +13,11 @@
 }
 
   .section {
-    padding: var(--space-xl) var(--space-lg) !important;
+    padding: var(--space-xl) var(--space-xl) !important;
   }
 
   h3 {
-    margin-bottom: var(--space-lg)!important;
+    margin-bottom: var(--space-xl)!important;
   }
 
   br{

@@ -116,12 +116,13 @@ p {
   overflow: hidden; /* ← 背景クリック防止 */
 }
 
-/* 背景スライド（クリック不可） */
 .hero-slides {
-  position: fixed;
+  position: absolute;
   inset: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
   z-index: 0;
-  pointer-events: none; /* ← 背景クリックできなくなる */
 }
 
 .slide-wrap {

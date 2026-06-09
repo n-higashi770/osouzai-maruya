@@ -16,21 +16,6 @@ setInterval(() => {
   showSlide(index);
 }, 4000);
 
-/* 出たら消す */
-const hero = document.getElementById('hero');
-const heroSlides = document.querySelector('.hero-slides');
-
-window.addEventListener('scroll', () => {
-  const heroBottom = hero.offsetHeight;
-
-  if (window.scrollY > heroBottom) {
-    document.body.classList.add('scrolled-past-hero');
-  } else {
-    document.body.classList.remove('scrolled-past-hero');
-  }
-});
-
-
 
 /* フェードイン */
 

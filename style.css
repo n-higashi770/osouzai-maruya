@@ -794,13 +794,14 @@ p {
 /* =====================
 フッター
 ===================== */
-.copyright{
- max-width: 1250px;
- width: 100%;
- margin: var(--space-3xl) auto var(--space-lg);
- text-align: center;
- opacity: .55;
- }
+.footer {
+  max-width: 1250px;
+  width: 100%;
+  margin: var(--space-lg) auto; 
+  text-align: center;
+  opacity: .55;
+}
+
 
 
 /* =====================

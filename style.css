@@ -173,6 +173,11 @@ small {
   );
 }
 
+body.scrolled-past-hero .hero-slides {
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+
 /* =========================
   キャッチ（画面中央）
 ========================= */

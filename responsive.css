@@ -14,7 +14,7 @@
 
   .section {
     padding-block: var(--space-xl) !important;
-    padding-inline: var(--space-lg) !important;
+    padding-inline: var(--space-md) !important;
   }
 
   h3 {

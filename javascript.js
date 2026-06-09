@@ -16,6 +16,21 @@ setInterval(() => {
   showSlide(index);
 }, 4000);
 
+/* パララックス */
+window.addEventListener('scroll', () => {
+  const hero = document.getElementById('hero');
+  const slides = document.querySelectorAll('.slide');
+
+  const rect = hero.getBoundingClientRect();
+  const scrollProgress = rect.top / window.innerHeight; 
+
+  slides.forEach(slide => {
+    const move = scrollProgress * 40; 
+    slide.style.transform = `translate(-50%, calc(-50% + ${move}px)) scale(1.03)`;
+  });
+});
+
+
 
 /* フェードイン */
 

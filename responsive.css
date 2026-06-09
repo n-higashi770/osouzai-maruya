@@ -13,7 +13,7 @@
 }
 
   .section {
-    padding: var(--space-xl) var(--space-xl) !important;
+    padding: var(--space-xl) var(--space-2xl) !important;
   }
 
   h3 {

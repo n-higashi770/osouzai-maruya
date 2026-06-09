@@ -586,13 +586,13 @@ small {
 .menu-text p {
   line-height: 2.5;
   letter-spacing: .05em;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .menu-text small {
   line-height: 2.5;
   letter-spacing: .05em;
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .menu-sns img {

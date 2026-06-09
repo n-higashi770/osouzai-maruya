@@ -590,14 +590,10 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-text p {
-  line-height: 2.5;
-  letter-spacing: .05em;
   margin-bottom: var(--space-md);
 }
 
 .menu-text small {
-  line-height: 2.5;
-  letter-spacing: .05em;
   margin-bottom: var(--space-md);
 }
 
@@ -665,19 +661,15 @@ body.hide-hero-bg .hero-slides {
 
 .menu-card .badge{
   font-size: .85rem;
-  line-height: 1.8;
   margin-bottom: var(--space-xs);
 }
 
 .menu-card h4{
-  font-size: 1.15rem;
-  font-weight: 500;
   margin-bottom: var(--space-xs);
 }
 
 .menu-card .price{
   font-size: .95rem;
-  line-height: 1.6;
 }
 
 /* ドット */

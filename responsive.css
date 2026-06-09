@@ -13,20 +13,24 @@
 }
 
   .section {
-    padding: var(--space-2xl) var(--space-lg) !important;
+    padding-block: var(--space-xl) !important;
+    padding-inline: var(--space-lg) !important;
   }
 
   h3 {
-    margin-bottom: var(--space-lg)!important;
+    margin-bottom: var(--space-lg) !important;
   }
 
   p {
     font-size: 0.9rem;
+    line-height: 2.1;
   }
 
   small {
     font-size: 0.8rem;
+    line-height: 2.1;
   }
+}
 
   br{
     display: none;
@@ -35,7 +39,8 @@
   .sp-show-br{
     display: inline;
   }
-
+  
+  
 
   /* =========================================================
      ヘッダー・ヒーロー
@@ -61,6 +66,7 @@
 }
 
   .hero-text p {
+    font-weight: 400;
     font-size: 1.5rem;
   }
 }

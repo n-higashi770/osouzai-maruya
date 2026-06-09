@@ -185,6 +185,14 @@
 
 @media (max-width: 768px){
 
+  .menu-title {
+    width: 100%; 
+  }
+
+  .menu-text {
+    width: 100%;
+  }
+
   .menu-block {
     flex-direction: column;
     align-items: flex-start;
@@ -216,8 +224,8 @@
   }
 
   .swiper-pagination {
-    margin-top: var(--space-md);
-    margin-bottom: var(--space-md);
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-xl);
   }
 
   .menu-text small {

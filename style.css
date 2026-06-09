@@ -531,7 +531,7 @@ p {
 }
 
 .news-item-title {
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .news-list {
@@ -543,7 +543,7 @@ p {
 }
 
 .news-item-date {
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-sm);
 }
 
 .news-item-body {

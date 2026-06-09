@@ -21,11 +21,11 @@
   }
 
   p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   small {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   br{
@@ -142,7 +142,8 @@
 
 .aboutus-text-vertical p {
     width: 100% !important;
-    max-width: none !important;
+    max-width: 22em !important;
+    margin: 0;
   }
 
 

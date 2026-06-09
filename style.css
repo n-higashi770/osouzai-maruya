@@ -411,12 +411,25 @@ p {
 }
 
 
-/* PCだけハンバーガーを消す */
+/* 非表示 */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
+}
+
 @media (min-width: 769px) {
   .hamburger {
     display: none;
   }
 }
+
 
 /* ==========================================
 私たちについて

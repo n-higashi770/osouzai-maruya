@@ -245,11 +245,11 @@
   }
 
   .menu-text p {
-    margin-bottom: var(--space-md) !important;
+    margin-bottom: var(--space-sm) !important;
   }
   
   .menu-text small {
-    margin-bottom: var(--space-lg) !important;
+    margin-bottom: var(--space-sm) !important;
   }
 }
 

@@ -185,11 +185,11 @@
   .news-list {
     width: 100%;
     min-width: auto;
-    gap: var(--space-md); 
+    gap: var(--space-sm); 
   }
 
   .news-item {
-    padding-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
   }
 
 }

@@ -533,7 +533,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .news-title {
-  width: 320px;
+  width: 192px;
 }
 
 .news-list {
@@ -552,6 +552,11 @@ body.hide-hero-bg .hero-slides {
   margin-bottom: var(--space-xs);
 }
 
+.news-item-body p {
+  font-size: 0.85rem;
+  line-height: 2.2;
+}
+
 /* =====================
 メニュー
 ===================== */
@@ -567,7 +572,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-title {
-  width: 320px;
+  width: 272px;
   display: flex;
   flex-direction: column;
 }
@@ -744,7 +749,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .info-title {
-  width: 320px;
+  width: 232px;
 }
 
 .info-content {

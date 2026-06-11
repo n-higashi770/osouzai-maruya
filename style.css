@@ -53,8 +53,7 @@ body {
 
 .news-wrapper,
 .menu-block,
-.info-wrapper,
-.aboutus-block {
+.info-wrapper {
   gap: var(--space-xl); 
 }
 
@@ -558,11 +557,6 @@ body.hide-hero-bg .hero-slides {
 
 .news-item-body {
   margin-bottom: var(--space-xs);
-}
-
-.news-item-body {
-  font-size: 0.85rem;
-  line-height: 2.2;
 }
 
 /* =====================

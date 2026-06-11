@@ -76,14 +76,14 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 700;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.5rem;
   margin-bottom: var(--space-xl) !important;
 }
 
 h4 {
     font-size: 1.25rem;
     font-weight: 500;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.25rem;
 }
 
 p {
@@ -458,7 +458,7 @@ body.hide-hero-bg .hero-slides {
   display: grid;
   grid-template-columns: 35% 65%;
   align-items: center;
-  margin-block: var(--space-3xl);
+  margin-block: var(--space-2xl);
 }
 
 .aboutus-block:nth-child(2){
@@ -475,7 +475,7 @@ body.hide-hero-bg .hero-slides {
   order: 1; 
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
 }
 
 .aboutus-text-vertical{
@@ -491,7 +491,6 @@ body.hide-hero-bg .hero-slides {
 .aboutus-text-vertical h3{
   writing-mode: vertical-rl;
   text-orientation: upright;
-  line-height: 2;
   height: auto;
 }
 
@@ -541,7 +540,7 @@ body.hide-hero-bg .hero-slides {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-sm);
   min-width: auto;
 }
 
@@ -752,7 +751,6 @@ body.hide-hero-bg .hero-slides {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: var(--space-xl);
   min-width: 620px;
 }
 

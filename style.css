@@ -54,7 +54,7 @@ body {
 .news-wrapper,
 .menu-block,
 .info-wrapper {
-  gap: var(--space-2xl); 
+  gap: var(--space-3xl); 
 }
 
 
@@ -574,7 +574,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-title {
-  width: 260px;
+  width: 280px;
   display: flex;
   flex-direction: column;
 }

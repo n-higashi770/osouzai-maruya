@@ -54,7 +54,7 @@ body {
 .news-wrapper,
 .menu-block,
 .info-wrapper {
-  gap: var(--space-xl); 
+  gap: var(--space-2xl); 
 }
 
 
@@ -540,7 +540,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .news-title {
-  width: 300px;
+  width: 220px;
 }
 
 .news-list {
@@ -574,7 +574,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-title {
-  width: 300px;
+  width: 260px;
   display: flex;
   flex-direction: column;
 }
@@ -751,7 +751,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .info-title {
-  width: 300px;
+  width: 260px;
 }
 
 .info-content {

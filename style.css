@@ -586,11 +586,11 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-text p {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .menu-text small {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .menu-sns img {
@@ -673,7 +673,7 @@ body.hide-hero-bg .hero-slides {
   position: static;                
   justify-content: center;
   width: 100%;
-  margin-block: var(--space-xl);
+  margin-block: var(--space-2xl);
 }
 
 /* =====================

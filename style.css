@@ -44,7 +44,7 @@ body {
   width: 100%;
   min-height: auto;
   overflow: hidden;
-  padding-block: var(--space-3xl);
+  padding-block: var(--space-2xl);
   padding-left: var(--space-4xl);
   padding-right: 0;
   background: #F7F3EA;
@@ -465,7 +465,7 @@ body.hide-hero-bg .hero-slides {
   display: grid;
   grid-template-columns: 35% 65%;
   align-items: center;
-  margin-block: var(--space-3xl);
+  margin-block: var(--space-2xl);
 }
 
 .aboutus-block:nth-child(2){

@@ -560,6 +560,15 @@ body.hide-hero-bg .hero-slides {
   margin-bottom: var(--space-xs);
 }
 
+.menu-sns .sns-link img {
+  transition: transform .35s ease, opacity .35s ease;
+}
+
+.menu-sns .sns-link:hover img {
+  transform: scale(1.06);
+  opacity: .9;
+}
+
 /* =====================
 メニュー
 ===================== */

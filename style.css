@@ -266,6 +266,7 @@ body.hide-hero-bg .hero-slides {
   writing-mode: horizontal-tb;
   display: inline-block;
   transition: transform .35s ease, opacity .35s ease;
+  transform-origin: center center;
 }
 
 /* 中身は縦書きに戻す */
@@ -551,7 +552,9 @@ body.hide-hero-bg .hero-slides {
 
 .news-item {
   border-bottom: 1px solid #ccc;
-  margin-block: var(--space-sm);
+  padding-top: var(--space-xs);    
+  padding-bottom: var(--space-xs); 
+  margin: 0;                       
 }
 
 .news-title {
@@ -811,8 +814,10 @@ body.hide-hero-bg .hero-slides {
 
 .info-shop dt,
 .info-shop dd {
-  margin: var(--space-xs) 0;
   border-bottom: 1px solid #ccc;
+  padding-top: var(--space-xs);     
+  padding-bottom: var(--space-xs); 
+  margin: 0;                       
 }
 
 /* =====================

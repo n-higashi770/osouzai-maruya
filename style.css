@@ -320,6 +320,7 @@ body.hide-hero-bg .hero-slides {
 }
 
 .pc-vertical-nav a {
+  display: inline-block;
   transition: opacity .35s ease, transform .35s ease;
 }
 

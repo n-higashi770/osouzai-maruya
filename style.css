@@ -310,6 +310,16 @@ body.hide-hero-bg .hero-slides {
   display: block;
 }
 
+.pc-vertical-nav a {
+  transition: opacity .3s ease, transform .3s ease;
+}
+
+.pc-vertical-nav a:hover {
+  opacity: .7;
+  transform: translateX(4px);
+}
+
+
 /* =========================
 ハンバーガーメニュー
 ========================= */
@@ -416,7 +426,7 @@ body.hide-hero-bg .hero-slides {
 
 .nav-icon {
   position: relative;
-  width: 30px; /* 必要に応じて調整 */
+  width: 30px;
   height: 30px;
 }
 
@@ -425,7 +435,7 @@ body.hide-hero-bg .hero-slides {
   inset: 0;
   width: 100%;
   height: auto;
-  transition: opacity .6s ease; /* ← これでふわっと切り替わる */
+  transition: opacity .6s ease; 
 }
 
 
@@ -560,14 +570,6 @@ body.hide-hero-bg .hero-slides {
   margin-bottom: var(--space-xs);
 }
 
-.menu-sns .sns-link img {
-  transition: transform .35s ease, opacity .35s ease;
-}
-
-.menu-sns .sns-link:hover img {
-  transform: scale(1.06);
-  opacity: .9;
-}
 
 /* =====================
 メニュー
@@ -606,6 +608,15 @@ body.hide-hero-bg .hero-slides {
 .menu-sns img {
   width: 280px;
   display: block;
+}
+
+.menu-sns .sns-link img {
+  transition: transform .35s ease, opacity .35s ease;
+}
+
+.menu-sns .sns-link:hover img {
+  transform: scale(1.03);
+  opacity: .9;
 }
 
 

@@ -551,11 +551,16 @@ body.hide-hero-bg .hero-slides {
   min-width: auto;
 }
 
+.news-item-title {
+  font-size: 1.5rem;
+}
+
 .news-item-date {
   margin-bottom: var(--space-xs);
 }
 
 .news-item-body {
+  line-height: 2;
   margin-bottom: var(--space-xs);
 }
 

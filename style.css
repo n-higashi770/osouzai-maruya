@@ -556,6 +556,7 @@ body.hide-hero-bg .hero-slides {
 
 .news-item {
   border-bottom: 1px solid #ccc;
+  margin-block: var(--space-sm);
 }
 
 .news-title {
@@ -576,7 +577,6 @@ body.hide-hero-bg .hero-slides {
 
 .news-item-body {
   line-height: 2;
-  margin-bottom: var(--space-xs);
 }
 
 

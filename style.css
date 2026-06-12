@@ -800,7 +800,7 @@ body.hide-hero-bg .hero-slides {
 ===================== */
 footer {
   width: 100%;
-  margin-block: var(--space-3xl);
+  margin-block: var(--space-2xl);
   text-align: center;
   background: #F7F3EA;
   z-index: 10;

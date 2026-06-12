@@ -224,6 +224,15 @@ body.hide-hero-bg .hero-slides {
   height: auto;
 }
 
+.header-logo img {
+  transition: transform .35s ease, opacity .35s ease;
+}
+
+.header-logo:hover img {
+  transform: scale(1.03);
+  opacity: .9;
+}
+
 
 /* =========================
 縦書きナビ
@@ -311,12 +320,12 @@ body.hide-hero-bg .hero-slides {
 }
 
 .pc-vertical-nav a {
-  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .35s ease, transform .35s ease;
 }
 
 .pc-vertical-nav a:hover {
+  transform: scale(1.03);
   opacity: .7;
-  transform: translateX(4px);
 }
 
 

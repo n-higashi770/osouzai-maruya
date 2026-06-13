@@ -254,25 +254,23 @@ body.hide-hero-bg .hero-slides {
   list-style: none;
 }
 
-/* li は縦書きのまま */
-.pc-vertical-nav li {
+.pc-vertical-nav li {  
   writing-mode: vertical-rl;
   text-orientation: mixed;
   position: relative;
   --progress: 0;
+  display: flex;
+  align-items: flex-start;
 }
 
 .nav-item {
-  writing-mode: horizontal-tb;
   display: inline-block;
   transition: transform .35s ease, opacity .35s ease;
-  transform-origin: center center;
 }
 
-/* 中身は縦書きに戻す */
 .nav-item a {
   writing-mode: vertical-rl;
-  display: inline-block;
+  display: block;
   color: rgba(255,255,255,0.72);
   text-shadow: 0 2px 10px rgba(0,0,0,.35);
   letter-spacing: 0.25rem;

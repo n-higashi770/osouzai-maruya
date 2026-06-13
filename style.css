@@ -604,11 +604,11 @@ body.hide-hero-bg .hero-slides {
 }
 
 .menu-text p {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .menu-text small {
-  margin-bottom: var(--space-lg);
+  margin-bottom: var(--space-md);
 }
 
 .menu-sns img {

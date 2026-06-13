@@ -18,7 +18,7 @@
   }
 
   h3 {
-    margin-bottom: var(--space-lg) !important;
+    margin-bottom: var(--space-md) !important;
   }
 
   p {
@@ -78,7 +78,7 @@
   @media (max-width: 768px) {
 
   .aboutus-wrapper {
-    gap: var(--space-lg);
+    gap: var(--space-md);
   }
 
   .aboutus-block {
@@ -131,7 +131,7 @@
     justify-items: initial !important;
     align-content: initial !important;
 
-   margin-bottom: var(--space-lg);
+   margin-bottom: var(--space-md);
   }
 
   .aboutus-text-vertical h3{

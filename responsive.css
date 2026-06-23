@@ -313,7 +313,7 @@
      フッター
   ========================================================= */
     footer {
-      padding-block: var(--space-xl);
+      padding-block: var(--space-lg);
     }
     
 }

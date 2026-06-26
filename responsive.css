@@ -18,13 +18,13 @@
   }
 
   h2 {
-    margin-bottom: var(--space-xs);
+    margin-bottom: var(--space-sm)!important;
   }
 
   h3 {
     letter-spacing: 0.25rem;
-    line-height: 0;
-    margin-bottom: var(--space-md);
+    line-height: 1.4;
+    margin-bottom: var(--space-md)!important;
   }
 
   p {
@@ -141,7 +141,8 @@
   }
 
   .aboutus-text-vertical h3{
-  writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
+    margin-bottom: var(--space-md) !important;
   }
 
   .aboutus-text-vertical h2,

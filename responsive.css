@@ -17,10 +17,14 @@
     padding-inline: var(--space-md) !important;
   }
 
+  h2 {
+    margin-bottom: var(--space-xs);
+  }
+
   h3 {
     letter-spacing: 0.25rem;
     line-height: 0;
-    margin-bottom: var(--space-md) !important;
+    margin-bottom: var(--space-md);
   }
 
   p {

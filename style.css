@@ -712,6 +712,7 @@ body.hide-hero-bg .hero-slides {
   position: relative;
   width: 100%;
   margin: 0;
+  padding-block: 0;
   padding-left: var(--space-4xl);
 }
 

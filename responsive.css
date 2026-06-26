@@ -114,7 +114,7 @@
   }
 
    .aboutus-block:first-child {
-    margin-bottom: var(--space-lg) !important;
+    margin-bottom: 0;
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {

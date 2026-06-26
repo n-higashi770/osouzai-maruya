@@ -92,13 +92,13 @@
   @media (max-width: 768px) {
 
   .aboutus-wrapper {
-    gap: var(--space-md);
+    gap: var(--space-lg);
   }
 
   .aboutus-block {
     display: flex !important;
     flex-direction: column !important;
-    gap: var(--space-lg);
+    gap: var(--space-md);
     margin: 0 !important;
     grid-template-columns: none !important;
     grid-auto-rows: auto !important;
@@ -122,7 +122,7 @@
   }
 
    .aboutus-block:first-child {
-     margin-bottom: var(--space-lg); 
+     margin-bottom: 0; 
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {
@@ -133,7 +133,7 @@
     order: 2 !important;
     display: flex !important;
     flex-direction: column !important;
-    gap: var(--space-md) !important;
+    gap: var(--space-sm) !important;
   }
 
  .aboutus-text-vertical {
@@ -145,7 +145,7 @@
     justify-items: initial !important;
     align-content: initial !important;
 
-   margin-bottom: var(--space-md);
+   margin-bottom: 0;
   }
 
   .aboutus-text-vertical h3{

@@ -18,10 +18,10 @@
   }
 
   p, small, h2, h3 {
-    word-break: normal;
-    overflow-wrap: normal;
-    line-break: auto;
-    white-space: normal;
+    line-break: normal !important;
+    word-break: normal !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
   }
 
   

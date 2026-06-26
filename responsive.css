@@ -122,7 +122,7 @@
   }
 
    .aboutus-block:first-child {
-    margin-bottom: 0;
+     margin-bottom: var(--space-lg); 
   }
 
   .aboutus-block:nth-child(2) .aboutus-text-vertical {

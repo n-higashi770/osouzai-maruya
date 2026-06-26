@@ -98,7 +98,7 @@
   .aboutus-block {
     display: flex !important;
     flex-direction: column !important;
-    gap: var(--space-md);
+    gap: var(--space-lg);
     margin: 0 !important;
     grid-template-columns: none !important;
     grid-auto-rows: auto !important;

@@ -92,7 +92,7 @@
   @media (max-width: 768px) {
 
   .aboutus-wrapper {
-    gap: var(--space-lg);
+    gap: var(--space-xl);
   }
 
   .aboutus-block {

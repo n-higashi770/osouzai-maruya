@@ -395,7 +395,7 @@ body.hide-hero-bg .hero-slides {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: var(--space-xl);
+  gap: var(--space-lg);
 }
 
 .global-nav a{

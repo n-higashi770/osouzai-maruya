@@ -188,7 +188,7 @@ body.hide-hero-bg .hero-slides {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -30%);
   z-index: 20;
   display: flex;
   justify-content: center;

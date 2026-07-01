@@ -188,7 +188,7 @@ body.hide-hero-bg .hero-slides {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -30%);
+  transform: translate(-50%, -25%);
   z-index: 20;
   display: flex;
   justify-content: center;
@@ -255,6 +255,19 @@ body.hide-hero-bg .hero-slides {
   height:60px;
   background:#fff;
   margin-top:12px;
+}
+
+.scroll-guide{
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%,100%{
+    transform:translateX(-50%) translateY(0);
+  }
+  50%{
+    transform:translateX(-50%) translateY(8px);
+  }
 }
 
 

@@ -87,9 +87,9 @@ h3 {
 }
 
 h4 {
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 500;
-    letter-spacing: 0.25rem;
+    letter-spacing: 0.15rem;
 }
 
 p {
@@ -430,6 +430,7 @@ body.hide-hero-bg .hero-slides {
   position: relative;
   width: 30px;
   height: 30px;
+  margin-top: var(--space-xl);
 }
 
 .nav-icon img {

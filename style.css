@@ -120,7 +120,7 @@ small {
   hero
 ========================= */
 #hero {
-  height: 100vh;
+  height: 80vh;
   position: relative;
   overflow: hidden; 
 }
@@ -197,10 +197,10 @@ body.hide-hero-bg .hero-slides {
 
 
 .hero-text p {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 300;
   line-height: 2;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.5rem;
   writing-mode: vertical-rl;
   color: #fff;
 }
@@ -219,7 +219,7 @@ body.hide-hero-bg .hero-slides {
 
 
 .header-logo img {
-  width: 110px;
+  width: 160px;
   height: auto;
 }
 

@@ -163,13 +163,11 @@ small {
   transform: translate(-50%, -50%) scale(1.03);
 }
 
-.hero-slides::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.35);
-  backdrop-filter: blur(2px);
+.hero-slides {
+  filter: brightness(0.75); 
+  transition: filter .4s ease;
 }
+
 
 
 /* hero 背景を消す */

@@ -163,23 +163,6 @@ small {
   transform: translate(-50%, -50%) scale(1.03);
 }
 
-.slide-wrap::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.25)
-  );
-}
-
-body.hide-hero-bg .hero-slides {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity .6s ease;
-}
-
 /* =========================
   グラデーション
 ========================= */

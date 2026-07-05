@@ -163,6 +163,17 @@ small {
   transform: translate(-50%, -50%) scale(1.03);
 }
 
+/* hero 背景を消す */
+.hide-hero-bg .hero-slides {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hero-slides {
+  transition: opacity .6s ease;
+}
+
+
 /* =========================
   グラデーション
 ========================= */

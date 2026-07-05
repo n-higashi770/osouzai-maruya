@@ -132,6 +132,9 @@ small {
   width: 100%;
   overflow: hidden;
   z-index: 0;
+
+  filter: brightness(0.75); 
+  transition: filter .4s ease;
 }
 
 .slide-wrap {
@@ -162,12 +165,6 @@ small {
 .slide3.active .slide {
   transform: translate(-50%, -50%) scale(1.03);
 }
-
-.hero-slides {
-  filter: brightness(0.75); 
-  transition: filter .4s ease;
-}
-
 
 
 /* hero 背景を消す */

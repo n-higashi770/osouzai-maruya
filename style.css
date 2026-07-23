@@ -120,7 +120,7 @@ small {
   hero
 ========================= */
 #hero {
-  height: 95vh;
+  height: 100vh;
   position: relative;
   overflow: hidden; 
 }

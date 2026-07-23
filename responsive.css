@@ -61,6 +61,11 @@
 
 
 @media (max-width: 768px) {
+
+  .hero {
+    height: 100vh;
+  }
+  
   .pc-vertical-nav {
     display: none;
   }

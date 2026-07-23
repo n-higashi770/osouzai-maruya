@@ -63,8 +63,9 @@
 @media (max-width: 768px) {
 
   .hero {
-    height: 100vh;
+    height: 100dvh;
   }
+  
   
   .pc-vertical-nav {
     display: none;
@@ -86,6 +87,10 @@
   .hero-text p {
     font-weight: 400;
     font-size: 1.5rem;
+  }
+
+  .scroll-guide {
+    bottom: 20px;
   }
 }
 
